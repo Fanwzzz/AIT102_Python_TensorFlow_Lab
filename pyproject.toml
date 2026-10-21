@@ -1,0 +1,27 @@
+[project]
+name = "study-tensorflow"
+version = "0.1.0"
+description = "Project-local Python, NumPy, and TensorFlow learning environment"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "ipykernel>=6.30,<7",
+    "matplotlib>=3.10,<4",
+    "nbconvert>=7.17.1",
+    "notebook>=7.6.3",
+    "numpy>=2.0,<2.4",
+    "pandas>=2.3,<4",
+    "pillow>=11,<13",
+    "pip>=26.2.1",
+    "scikit-learn>=1.7,<2",
+    "scipy>=1.16,<2",
+    "seaborn>=0.13,<1",
+    "tensorflow>=2.21,<2.22",
+]
+
+[tool.uv]
+package = false
+
+[[tool.uv.index]]
+name = "pypi"
+url = "https://pypi.org/simple"
+default = true

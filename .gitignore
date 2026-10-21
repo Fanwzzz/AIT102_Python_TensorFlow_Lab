@@ -1,0 +1,20 @@
+# Local Python environment and generated files
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.env
+.env.*
+
+# Local course material, notebooks, and editor configuration
+/slides/
+/notebooks/
+/check_environment.py
+*.code-workspace
+.vscode/
+
+# Instructor assignment text and local exercise input/output
+/exercise/assignment1/
+/exercise/lab03/Lab 3.md
+/exercise/lab03/*.txt
