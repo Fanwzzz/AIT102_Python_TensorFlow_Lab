@@ -10,3 +10,5 @@ uv run --locked python exercise/lab01/ex01.py
 ```
 
 课程幻灯片、作业原题、个人 Notebook、环境检查脚本和本机 VS Code 配置仅保留在本地，不随仓库发布。课程资料的权利属于各自权利人；本仓库不授予这些资料的转载许可。
+
+本仓库中由我创作的代码和文档采用 [MIT License](LICENSE)。第三方课程材料不在该许可范围内。
