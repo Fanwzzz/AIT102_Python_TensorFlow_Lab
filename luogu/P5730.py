@@ -1,0 +1,18 @@
+n = int(input())
+dis = {"0": ["XXX","X.X","X.X","X.X","XXX"], 
+       "1": ["..X","..X","..X","..X","..X"], 
+       "2": ["XXX","..X","XXX","X..","XXX"],
+       "3": ["XXX","..X","XXX","..X","XXX"],
+       "4": ["X.X","X.X","XXX","..X","..X"],
+       "5": ["XXX","X..","XXX","..X","XXX"],
+       "6": ["XXX","X..","XXX","X.X","XXX"],
+       "7": ["XXX","..X","..X","..X","..X"],
+       "8": ["XXX","X.X","XXX","X.X","XXX"],
+       "9": ["XXX","X.X","XXX","..X","XXX"]}
+
+num = input()
+for i in range(5):
+    row = []
+    for j in range(n):
+        row.append(dis[num[j]][i])
+    print(".".join(row))

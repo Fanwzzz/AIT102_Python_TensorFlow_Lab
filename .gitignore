@@ -6,6 +6,7 @@ __pycache__/
 .DS_Store
 .env
 .env.*
+/luogu/Crawler/
 
 # Local course material, notebooks, and editor configuration
 /slides/
