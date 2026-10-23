@@ -15,4 +15,4 @@ elif x4 >= x5:
 else:
     biggest = x5
 
-print(f"The biggest number among {x1}, {x2}, {x3}, {x4}, {x5} is : {biggest}")
+print(f"The biggest number among {x1}, {x2}, {x3}, {x4}, {x5} is: {biggest}")

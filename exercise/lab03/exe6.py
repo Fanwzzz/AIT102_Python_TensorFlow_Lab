@@ -16,4 +16,4 @@ elif decision1 == "door 2":
     else:
         print("Invalid input. Please choose either door a or door b.")
 else:
-    print("Invalid input. Please choose either door 1 or door 2.")
+    print("Invalid input. Please choose either door 1 or door 2")
